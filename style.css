@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #000022;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='505' height='505' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke-opacity='0.32'%3E%3Cg stroke='%23026' stroke-width='17'%3E%3Cline x1='-8' y1='-8' x2='808' y2='808'/%3E%3Cline x1='-8' y1='792' x2='808' y2='1608'/%3E%3Cline x1='-8' y1='-808' x2='808' y2='8'/%3E%3C/g%3E%3Cg stroke='%23002163' stroke-width='16'%3E%3Cline x1='-8' y1='767' x2='808' y2='1583'/%3E%3Cline x1='-8' y1='17' x2='808' y2='833'/%3E%3Cline x1='-8' y1='-33' x2='808' y2='783'/%3E%3Cline x1='-8' y1='-783' x2='808' y2='33'/%3E%3C/g%3E%3Cg stroke='%23002060' stroke-width='15'%3E%3Cline x1='-8' y1='742' x2='808' y2='1558'/%3E%3Cline x1='-8' y1='42' x2='808' y2='858'/%3E%3Cline x1='-8' y1='-58' x2='808' y2='758'/%3E%3Cline x1='-8' y1='-758' x2='808' y2='58'/%3E%3C/g%3E%3Cg stroke='%23001f5c' stroke-width='14'%3E%3Cline x1='-8' y1='67' x2='808' y2='883'/%3E%3Cline x1='-8' y1='717' x2='808' y2='1533'/%3E%3Cline x1='-8' y1='-733' x2='808' y2='83'/%3E%3Cline x1='-8' y1='-83' x2='808' y2='733'/%3E%3C/g%3E%3Cg stroke='%23001e59' stroke-width='13'%3E%3Cline x1='-8' y1='92' x2='808' y2='908'/%3E%3Cline x1='-8' y1='692' x2='808' y2='1508'/%3E%3Cline x1='-8' y1='-108' x2='808' y2='708'/%3E%3Cline x1='-8' y1='-708' x2='808' y2='108'/%3E%3C/g%3E%3Cg stroke='%23001d56' stroke-width='12'%3E%3Cline x1='-8' y1='667' x2='808' y2='1483'/%3E%3Cline x1='-8' y1='117' x2='808' y2='933'/%3E%3Cline x1='-8' y1='-133' x2='808' y2='683'/%3E%3Cline x1='-8' y1='-683' x2='808' y2='133'/%3E%3C/g%3E%3Cg stroke='%23001c53' stroke-width='11'%3E%3Cline x1='-8' y1='642' x2='808' y2='1458'/%3E%3Cline x1='-8' y1='142' x2='808' y2='958'/%3E%3Cline x1='-8' y1='-158' x2='808' y2='658'/%3E%3Cline x1='-8' y1='-658' x2='808' y2='158'/%3E%3C/g%3E%3Cg stroke='%23001b4f' stroke-width='10'%3E%3Cline x1='-8' y1='167' x2='808' y2='983'/%3E%3Cline x1='-8' y1='617' x2='808' y2='1433'/%3E%3Cline x1='-8' y1='-633' x2='808' y2='183'/%3E%3Cline x1='-8' y1='-183' x2='808' y2='633'/%3E%3C/g%3E%3Cg stroke='%23001a4c' stroke-width='9'%3E%3Cline x1='-8' y1='592' x2='808' y2='1408'/%3E%3Cline x1='-8' y1='192' x2='808' y2='1008'/%3E%3Cline x1='-8' y1='-608' x2='808' y2='208'/%3E%3Cline x1='-8' y1='-208' x2='808' y2='608'/%3E%3C/g%3E%3Cg stroke='%23001949' stroke-width='8'%3E%3Cline x1='-8' y1='567' x2='808' y2='1383'/%3E%3Cline x1='-8' y1='217' x2='808' y2='1033'/%3E%3Cline x1='-8' y1='-233' x2='808' y2='583'/%3E%3Cline x1='-8' y1='-583' x2='808' y2='233'/%3E%3C/g%3E%3Cg stroke='%23001846' stroke-width='7'%3E%3Cline x1='-8' y1='242' x2='808' y2='1058'/%3E%3Cline x1='-8' y1='542' x2='808' y2='1358'/%3E%3Cline x1='-8' y1='-558' x2='808' y2='258'/%3E%3Cline x1='-8' y1='-258' x2='808' y2='558'/%3E%3C/g%3E%3Cg stroke='%23001743' stroke-width='6'%3E%3Cline x1='-8' y1='267' x2='808' y2='1083'/%3E%3Cline x1='-8' y1='517' x2='808' y2='1333'/%3E%3Cline x1='-8' y1='-533' x2='808' y2='283'/%3E%3Cline x1='-8' y1='-283' x2='808' y2='533'/%3E%3C/g%3E%3Cg stroke='%2300163f' stroke-width='5'%3E%3Cline x1='-8' y1='292' x2='808' y2='1108'/%3E%3Cline x1='-8' y1='492' x2='808' y2='1308'/%3E%3Cline x1='-8' y1='-308' x2='808' y2='508'/%3E%3Cline x1='-8' y1='-508' x2='808' y2='308'/%3E%3C/g%3E%3Cg stroke='%2300153c' stroke-width='4'%3E%3Cline x1='-8' y1='467' x2='808' y2='1283'/%3E%3Cline x1='-8' y1='317' x2='808' y2='1133'/%3E%3Cline x1='-8' y1='-333' x2='808' y2='483'/%3E%3Cline x1='-8' y1='-483' x2='808' y2='333'/%3E%3C/g%3E%3Cg stroke='%23001439' stroke-width='3'%3E%3Cline x1='-8' y1='342' x2='808' y2='1158'/%3E%3Cline x1='-8' y1='442' x2='808' y2='1258'/%3E%3Cline x1='-8' y1='-458' x2='808' y2='358'/%3E%3Cline x1='-8' y1='-358' x2='808' y2='458'/%3E%3C/g%3E%3Cg stroke='%23001336' stroke-width='2'%3E%3Cline x1='-8' y1='367' x2='808' y2='1183'/%3E%3Cline x1='-8' y1='417' x2='808' y2='1233'/%3E%3Cline x1='-8' y1='-433' x2='808' y2='383'/%3E%3Cline x1='-8' y1='-383' x2='808' y2='433'/%3E%3C/g%3E%3Cg stroke='%23013' stroke-width='1'%3E%3Cline x1='-8' y1='392' x2='808' y2='1208'/%3E%3Cline x1='-8' y1='-408' x2='808' y2='408'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    color: white;
+    font-family: "Chakra Petch", sans-serif;
+    
+}
+
+.quizapp-container {
+    text-align: center;
+    width: 600px;
+    margin: 100px auto;
+
+}
+
+.quizapp-container h1 {
+
+    font-size: 50px;
+    background-color: white;
+    width: fit-content;
+    margin: auto;
+    padding: 3px 10px;
+
+    border-radius: 6px;
+    color: black;
+    font-style: italic;
+}
+
+.form-container {
+    width: 100%;
+  display: block;
+    margin-top: 40px;
+}
+
+.form-select {
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+    font-size: 17px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.form-select option {
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+    padding: 15px 0;
+    font-family: "Josefin Sans", sans-serif;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-indent: 15px;
+   
+  
+}
+input:focus::placeholder{
+    font-size: 12px;
+}
+.animate__delay
+{
+    animation-delay: 0.8s !important;
+}
+input::placeholder {
+    color: black;
+    padding: 0 0 0 20px;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+input:focus {
+    outline: none;
+
+}
+
+button {
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: #c5cae9;
+    border-radius: 5px;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 17px;
+    border: 1px solid #c5cae9;
+    transition: 0.3s;
+    
+}
+button:hover
+{
+    background-color: #353e9d;
+    color: white;
+    border: 1px solid white;
+}
+.questions-container
+{
+    background-color: white;
+    display: none;
+    width: 600px;
+   
+    border-radius: 5px;
+    color: black;
+    margin: 40px auto;
+}
+.questions-container .header
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px ;
+ 
+    
+}
+.category,.count
+{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 2px;
+    border-radius: 4px;
+    color: white;
+}
+.category
+{
+    background-color: #4caf50;
+    
+}
+.count
+{
+    background-color: #0288d1;
+}
+.quesText
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+ul
+{
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 10px;
+   
+   
+
+}
+ul li
+{
+
+width: 40%;
+border:2px solid #858eef;
+margin-bottom: 20px ;
+border-radius: 15px;
+padding: 3px 8px;
+cursor: pointer;
+transition: 0.3s;
+
+}
+ul li:hover
+{
+    color: white;
+    background-color: #353e9d;
+}
+.score
+{
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(235, 75, 75);
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    padding-bottom: 10px;
+}
+.emoji
+{
+    font-size: 23px;
+}
+.correct,.correct:hover{
+    background-color: #4caf50;
+    border: none;
+    color: white;
+}
+.wrong, .wrong:hover{
+    background-color: #bf0603;
+    color: white;
+    border: none;
+}
+.finalresult
+{
+    margin-top: 40px;
+    height: 100%;
+    padding: 20px 0;
+}
+.finalresult h2{
+    color: #0288d1;
+    margin-bottom: 10px;
+    
+}
+.finalresult p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.try
+{
+    background-color: #0288d1;
+    color: white;
+    cursor: pointer;
+    width: fit-content;
+    margin:  0 auto;
+    padding: 7px 15px;
+    transition: 0.3s;
+    
+}
+.try:hover
+{
+    border-color: #0288d1;
+    background-color: #40c4ff;
+    color: white;
+   transform: rotate(360deg);
+}
+@media (max-width:991px)
+{
+    .quizapp-container , .questions-container
+    {
+       
+       width: 90%;
+    }
+    
+}
+@media (max-width:767px)
+{
+    .questions-container .header
+    {
+        flex-direction: column;
+    }
+    .questions-container .category
+    {
+        margin-bottom: 10px;
+    }
+    ul {
+        flex-direction: column;
+    }
+    ul li{
+        width: 100%;
+    }
+  
+}

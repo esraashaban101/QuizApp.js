@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="quizapp-container">
+        <h1 class="animate__animated animate__bounceInRight">QUIZ APP</h1>
+        <div class="form-container animate__animated  animate__bounceInLeft animate__delay">
+
+
+            <select class="form-select" id="categoryMenu" aria-label="category Select">
+                <option selected value="">Any Category</option>
+                <option value="9">General Knowledge</option>
+                <option value="27">Animals</option>
+                <option value="19">Science: Mathematics</option>
+                <option value="18">Science: Computers</option>
+                <option value="22">Geography</option>
+            </select>
+            <select class="form-select" id="categorydifficulty" aria-label="category Select">
+                <option selected value="">Category Difficulty</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+
+            </select>
+
+
+            <input placeholder="Number Of Questions" id="quesNum">
+            <button id="startBtn">Start</button>
+
+
+        </div>
+        <div class="questions-container animate__animated animate__bounceIn">
+        </div>
+    </div>
+
+    <script src="js/script.js" type="module"></script>
+</body>
+
+</html>
